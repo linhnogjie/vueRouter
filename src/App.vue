@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <header>
-      <router-link to="/home">Home</router-link>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <header>
+      <router-link to="/home"></router-link>
       <router-link to="/about">About</router-link>
       <router-link to="/user/123">User</router-link>
-      <router-link to="/user/321">User</router-link>
-    </header>
+      <router-link :to="{name:'user',params:{id: 321}}">User</router-link>
+    </header> -->
     <router-view></router-view>
   </div>
 </template>
